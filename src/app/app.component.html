@@ -3,5 +3,9 @@
   <h1>
     Welcome to {{ title }}!
   </h1>
+  <h3> You can always Express yourself freely......</h3>
+  <ul>
+    <li *ngFor='let quote of quotes'>{{quote.title}}<br>{{quote.body}}</li>
+  </ul>
   
 <router-outlet></router-outlet>
