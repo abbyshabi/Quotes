@@ -19,7 +19,8 @@ p{
 }
 .alert{
     height: 15%;
-}.warn{
+}
+.warn{
     padding-top: 15px;
     background-color: crimson;
     
