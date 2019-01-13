@@ -1,27 +1,28 @@
-# Quotes
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# LitQuotes
+#### An online application for quote posts. Users are able to view quote, view quotes, delete quotes etc, (January,2019)
+#### By **Oluwadamilola Shabi**
+## Description
+The LitQuote page is a web based application used for displaying quotes by famous authors. the user views quotes , deletes quotes and can vote on quotes.
+## Setup/Installation Requirements
+* Access github on a web browser
+* clone this repository  from https://github.com/abbyshabi/Quotes
+## Behaviour Driven Development
+* Users can view posts 
+* The user click on the view quote button
+* Quote details are shown and user can either delete quote or vote on quote
+* When user clicks on delete button, system asks 'are you sure you want to delete ?'
+* On quote input form , user can add a new quot e by inputting title, quote , author and clicking add button 
+## Live Demo
+ Here is a link to a live demo : https://abbyshabi.github.io/Triangle-tracker/
+## Known Bugs
+There are no known bugs for this application at the moment
+## Technologies Used
+* HTML
+* CSS
+* Typescript
+* Angular CLI
+## Support and contact details
+If you have any questions, please feel free to contact me at abbyshabi@gmail.com. You are welcome to make contributions and corrections as needed.
+### License
+*This project is licensed under the MIT License - see the LICENSE.md file for details*
+Copyright (c) {2019} **{Oluwadamilola Shabi}**
