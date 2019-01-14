@@ -6,11 +6,16 @@ label{
     font-size: 70%;
     font-style: italic;
 }
-input{
+input[type="text"],select {
     font-size: 60%;
     font-weight: 100; 
     font-style: italic;
+    width: 40%;
+    display: inline-block;
+    box-sizing: border-box;
+   margin-top: 25px;
 }
+
 [hidden]{
   font-size: 40%;
 }
@@ -24,4 +29,28 @@ p{
     padding-top: 15px;
     background-color: crimson;
     
+}
+button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     height: 30px;
+     font-weight: 100;
+     font-size: 90%;
+}
+#form{
+    margin-top: 25px;
+}
+h3{
+    margin-top: 25px;
+}
+.sbm{
+    margin-top: 25px;
+}
+textarea{
+    width: 40%;
+    align-self: center;
+    border-radius: 5%;
+  
+}
+.bg-light{
+    align-content: center;
 }
