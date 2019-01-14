@@ -1,6 +1,7 @@
 
 <h3> <b><i> {{quote.description}} </i></b></h3>
-<p appHighlight>{{quote.author}}</p>
+<p appHighlight> Author : {{quote.author}}</p>
+<p > By : {{quote.poster}}</p>
 <p>posted {{quote.completeDate|dateCount }} days ago</p>
 
 <button (click) = 'quoteDelete(true)'> Delete  </button>

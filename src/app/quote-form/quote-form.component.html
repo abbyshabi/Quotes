@@ -4,7 +4,7 @@
    <form #quoteForm='ngForm'>
        <!-- Name Form -->
          <div class=" bg-light" id="form">
-           <label for="name"><b>Title : </b></label>
+           <label for="name"><h5><b> Title : </b></h5></label>
            <input type="text"  placeholder="enter title" id="name" [(ngModel)]="newQuote.title" name="name" #name="ngModel" required>
            
            <div [hidden]="name.valid || name.pristine" class="warn">
@@ -23,7 +23,7 @@
            </div>
   
            <div class="bg-light">
-           <label for="author">By : </label>
+           <label for="author"> <h5><b> Author : </b></h5></label>
            <input type="text" placeholder="author's name" class="form-control" id="author" rows="4" [(ngModel)]="newQuote.author" name="author" #author="ngModel" required>
            <div [hidden]="author.valid || author.pristine" class=" warn">
                <p> Author's name is required</p><br><br>
@@ -32,17 +32,17 @@
            
 
            <div class="bg-light">
-            <label for="author">By : </label>
-            <input type="text" placeholder="author's name" class="form-control" id="author" rows="4" [(ngModel)]="newQuote.author" name="author" #author="ngModel" required>
-            <div [hidden]="author.valid || author.pristine" class=" warn">
-                <p> Author's name is required</p><br><br>
+            <label for="poster"><h5><b> By : </b></h5></label>
+            <input type="text" placeholder="Your name" class="form-control" id="poster" [(ngModel)]="newQuote.poster" name="poster" #poster="ngModel" required>
+            <div [hidden]="poster.valid || poster.pristine" class=" warn">
+                <p> Poster's name is required</p><br><br>
                </div> 
             </div>
     
        
        <!-- Date Input -->
        <div class=" bg-light">
-           <label for="complete">Date :  </label><br> 
+           <label for="complete"><h5><b> Date : </b></h5></label><br> 
            <input type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel" required >
            <div [hidden]="completeDate.valid || completeDate.pristine" class="warn">
                <p>Date is Required</p>
