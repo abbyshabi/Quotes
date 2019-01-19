@@ -5,15 +5,15 @@
 The LitQuote page is a web based application used for displaying quotes by famous authors. the user views quotes , deletes quotes and can vote on quotes.
 ## Setup/Installation Requirements
 * Access github on a web browser
-* clone this repository  from https://github.com/abbyshabi/Quotes
+* clone this repository  from https://abbyshabi.github.io/Quotes/
 ## Behaviour Driven Development
 * Users can view posts 
 * The user click on the view quote button
 * Quote details are shown and user can either delete quote or vote on quote
 * When user clicks on delete button, system asks 'are you sure you want to delete ?'
-* On quote input form , user can add a new quot e by inputting title, quote , author and clicking add button 
+* On quote input form , user can add a new quote by inputting title, quote , author and clicking add button 
 ## Live Demo
- Here is a link to a live demo : https://abbyshabi.github.io/Triangle-tracker/
+ Here is a link to a live demo : https://abbyshabi.github.io/Quotes/
 ## Known Bugs
 There are no known bugs for this application at the moment
 ## Technologies Used
